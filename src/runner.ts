@@ -13,5 +13,5 @@ export async function run(configuration: ConfigurationType) {
   }
 
   await prepareTheme(configuration);
-  await deploy(configuration);
+  //await deploy(configuration);
 }
