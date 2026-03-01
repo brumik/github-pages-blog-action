@@ -4,7 +4,7 @@ import { prepareTheme } from './theme';
 import { deploy } from './deploy';
 
 export async function run(configuration: ConfigurationType) {
-  info('Checking configuration and starting deployment');
+  info('Checking configuration and starting deployment - Brumik fork');
 
   //try {
   //  await configureRepo(configuration);
